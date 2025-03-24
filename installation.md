@@ -24,9 +24,15 @@ server1 ansible_host=       //enterthe server ips
 
 server2 ansible_host=     //enterthe server ips
 
+server1 ansible_user=ubuntu    //user_name
+
+server2 ansible_user=ec2-user   //user_name
+
 
 [nik-server:vars]
 
 ansible_python_interpreter= /user/bin/python3
 
-ansible_ssh_private_key_file =
+ansible_ssh_private_key_file =/home/ubuntu/keys/terra-key
+
+
