@@ -36,3 +36,8 @@ ansible_python_interpreter= /user/bin/python3
 ansible_ssh_private_key_file =/home/ubuntu/keys/terra-key
 
 
+# check host config
+
+cd
+
+ansible-inventory --list
